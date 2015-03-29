@@ -60,7 +60,6 @@ public class Simulation {
 		}
 		
 		LLA localLLA = new InetSocketLLA(inetSocketAddress);
-		dclService.setLocalLLA(localLLA); // TODO remove
 		
 		dclService.join(networkType);
 		
